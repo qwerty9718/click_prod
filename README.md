@@ -11,11 +11,13 @@ composer install
 
 Для получения погоды:
 ```sh
-php artisan openWeatherMap:getWeather Tashkent
+php artisan app:weather open-weather tashkent
+
 ```
 
 ```sh
-php artisan accuweather:getWeather London
+php artisan app:weather accu-weather tashkent
+
 ```
 
 
