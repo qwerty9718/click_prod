@@ -16,7 +16,7 @@ php artisan app:weather open-weather tashkent
 ```
 
 ```sh
-php artisan app:weather accu-weather tashkent
+php artisan app:weather accu-weather london
 
 ```
 
@@ -26,5 +26,5 @@ php artisan app:weather accu-weather tashkent
 Если выдает ошибку значит исчерпан лимит бесплатных запросов : Нужно
 
 Авторизоваться на сайте https://developer.accuweather.com/ или https://openweathermap.org/
-получить токен и прокинуть в переменную $apiKey в (App\Console\Commands\AccuweatherCommand) или (App\Console\Commands\OpenWeatherMapCommand)
+получить токен и прокинуть в переменную $api_key в (App\FactoryWeather\api\ApiAccuWeather) или (App\FactoryWeather\api\ApiOpenWeather)
 
