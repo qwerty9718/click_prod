@@ -12,7 +12,7 @@ class ApiAccuWeather extends Connect implements WeatherInterface
     public function __construct($city){
         $this->city = $city;
         $this->base_url = 'http://dataservice.accuweather.com/';
-        $this->api_key = 'r4NUDVSDAkvSYjpwGfUQwzZ99ULdVDbw';
+        $this->api_key = 'Fc3Wb6boBUuzbFnZ5SqUONt7jttWCHj6';
         parent::__construct();
         $this->getTemperature();
     }
